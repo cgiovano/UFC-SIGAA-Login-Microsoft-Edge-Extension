@@ -1,0 +1,14 @@
+{
+    "author": "Carlos Giovano",
+    "description": "Oferece acesso ao sistema integrado de gestões acadêmicas (SIGAA) através do Microsoft Edge.\n\nVocê ainda pode consultar minha página do GitHub com alguns outros projetos meus: \n\nhttps://github.com/cgiovano ",
+    "name": "UFC SIGAA Login (Microsoft Edge)",
+    "version": "1.0",
+    "icons": {
+        "40": "icons/SIGAA-Icon-Login.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://si3.ufc.br/*"],
+        "js": ["main.js"]
+    }]
+}
